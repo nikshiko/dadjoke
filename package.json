@@ -1,0 +1,17 @@
+{
+  "name": "dadjoke",
+  "version": "1.0.0",
+  "description": "A simple page showing dad jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preprocess": "npx babel --watch src --out-dir . --presets react-app/prod"
+  },
+  "author": "nikhil k s",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "styled-components": "^4.3.1"
+  }
+}
